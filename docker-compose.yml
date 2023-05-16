@@ -1,0 +1,8 @@
+version: 'V1'
+services:
+  nginx:
+    image: sriram46devops/cap_prod:V1
+    container_name: nginx_container
+    ports:
+      - "8080:8080"
+
